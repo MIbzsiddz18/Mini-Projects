@@ -1,0 +1,32 @@
+//////////////////////////Instruction Set ///////////////////////////////////////////////////////
+
+/*
+(1)  Load A          - 00000      ||      (11) Increment A     - 01010
+(2)  Add             - 00001      ||      (12) Left Shift A    - 01011
+(3)  Subtract        - 00010      ||      (13) Right Shift A   - 01100
+(4)  Multiply        - 00011      ||      (14) Decrement A     - 01101
+(5)  Divide          - 00100      ||      (15) Reset B         - 01110
+(6)  XOR             - 00101      ||      (16) Increment B     - 01111
+(7)  OR              - 00110      ||      (17) Left Shift B    - 10000
+(8)  AND             - 00111      ||      (18) Right Shift B   - 10001
+(9)  Not A           - 01000      ||      (19) Halt            - 10010
+(10) Reset A         - 01001      ||      (20) Store A         - 10011
+*/
+
+
+
+
+/*
+ 10 - Output Enable (PC)              | |
+ 9 - Count Enable (PC)                | |
+ 8 - Load Enable (MAR)                | |
+ 7 - Load Enable (RAM)                | |
+ 6 - Output Enable (RAM)              | |
+ 5 - Load Enable (IR)                 | |
+ 4 - Output Enable (IR)               | |
+ 3 - Load Enable (Accumulator)        | |
+ 2 - Output Enable (Accumulator)      | |
+ 1 - Output Enable (ALU)              | |
+ 0 - Load Enable (B Register)         | |
+
+*/
